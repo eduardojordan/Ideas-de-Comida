@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A075C637205EBF5B000A1ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075C636205EBF5B000A1ED8 /* AppDelegate.swift */; };
+		A075C639205EBF5B000A1ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075C638205EBF5B000A1ED8 /* ViewController.swift */; };
+		A075C63C205EBF5B000A1ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A075C63A205EBF5B000A1ED8 /* Main.storyboard */; };
+		A075C63E205EBF5B000A1ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A075C63D205EBF5B000A1ED8 /* Assets.xcassets */; };
+		A075C641205EBF5B000A1ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A075C63F205EBF5B000A1ED8 /* LaunchScreen.storyboard */; };
+		A075C64B205EBFF2000A1ED8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075C64A205EBFF2000A1ED8 /* TableViewController.swift */; };
+		A075C692205EC543000A1ED8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A075C690205EC543000A1ED8 /* TableViewCell.swift */; };
+		A075C693205EC543000A1ED8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A075C691205EC543000A1ED8 /* TableViewCell.xib */; };
+		A075C6DA205EE1D6000A1ED8 /* Albondiga.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6D9205EE1D6000A1ED8 /* Albondiga.jpeg */; };
+		A075C6FB205EE224000A1ED8 /* Pincho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6DB205EE21B000A1ED8 /* Pincho.jpg */; };
+		A075C6FC205EE224000A1ED8 /* Spaguetti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6DC205EE21B000A1ED8 /* Spaguetti.jpg */; };
+		A075C6FD205EE224000A1ED8 /* Atun ensalada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6DD205EE21C000A1ED8 /* Atun ensalada.jpg */; };
+		A075C6FE205EE224000A1ED8 /* Sopa de auyama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6DE205EE21C000A1ED8 /* Sopa de auyama.jpg */; };
+		A075C6FF205EE224000A1ED8 /* arepas-andinas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6DF205EE21C000A1ED8 /* arepas-andinas.jpg */; };
+		A075C700205EE224000A1ED8 /* Pero Caliente.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E0205EE21C000A1ED8 /* Pero Caliente.jpg */; };
+		A075C701205EE224000A1ED8 /* caraotas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E1205EE21D000A1ED8 /* caraotas.jpg */; };
+		A075C702205EE224000A1ED8 /* champinonesAl ajillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E2205EE21D000A1ED8 /* champinonesAl ajillo.jpg */; };
+		A075C703205EE224000A1ED8 /* Pollo a la plancha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E3205EE21D000A1ED8 /* Pollo a la plancha.jpg */; };
+		A075C704205EE224000A1ED8 /* Sandwiches.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E4205EE21E000A1ED8 /* Sandwiches.jpg */; };
+		A075C705205EE224000A1ED8 /* empanadilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E5205EE21E000A1ED8 /* empanadilla.jpg */; };
+		A075C706205EE224000A1ED8 /* Pollo al horno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E6205EE21E000A1ED8 /* Pollo al horno.jpg */; };
+		A075C707205EE224000A1ED8 /* Atuncon guacamole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E7205EE21F000A1ED8 /* Atuncon guacamole.jpg */; };
+		A075C708205EE224000A1ED8 /* Pollo frito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E8205EE21F000A1ED8 /* Pollo frito.jpg */; };
+		A075C709205EE224000A1ED8 /* Sopa-de-pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6E9205EE21F000A1ED8 /* Sopa-de-pollo.jpg */; };
+		A075C70A205EE224000A1ED8 /* Pollo a la placha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6EA205EE21F000A1ED8 /* Pollo a la placha.jpg */; };
+		A075C70B205EE224000A1ED8 /* Spageti chino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6EB205EE220000A1ED8 /* Spageti chino.jpg */; };
+		A075C70C205EE224000A1ED8 /* Tacos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6EC205EE220000A1ED8 /* Tacos.jpg */; };
+		A075C70D205EE224000A1ED8 /* ensalada cesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6ED205EE220000A1ED8 /* ensalada cesar.jpg */; };
+		A075C70E205EE224000A1ED8 /* Bollitos pelones.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6EE205EE220000A1ED8 /* Bollitos pelones.jpeg */; };
+		A075C70F205EE224000A1ED8 /* Pasticho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6EF205EE221000A1ED8 /* Pasticho.jpeg */; };
+		A075C710205EE224000A1ED8 /* PESCADO frito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F0205EE221000A1ED8 /* PESCADO frito.jpg */; };
+		A075C711205EE224000A1ED8 /* Arepas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F1205EE221000A1ED8 /* Arepas.jpg */; };
+		A075C712205EE224000A1ED8 /* Patacon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F2205EE222000A1ED8 /* Patacon.jpg */; };
+		A075C713205EE224000A1ED8 /* pepperoni pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F3205EE222000A1ED8 /* pepperoni pizza.jpg */; };
+		A075C714205EE224000A1ED8 /* Arroz con pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F4205EE222000A1ED8 /* Arroz con pollo.jpg */; };
+		A075C715205EE224000A1ED8 /* Cachapa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F5205EE222000A1ED8 /* Cachapa.jpg */; };
+		A075C716205EE224000A1ED8 /* Tequeños.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F6205EE223000A1ED8 /* Tequeños.jpg */; };
+		A075C717205EE224000A1ED8 /* Tortilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F7205EE223000A1ED8 /* Tortilla.jpg */; };
+		A075C718205EE224000A1ED8 /* Hamburguesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F8205EE223000A1ED8 /* Hamburguesa.jpg */; };
+		A075C719205EE224000A1ED8 /* Enrollaos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6F9205EE223000A1ED8 /* Enrollaos.jpg */; };
+		A075C71A205EE224000A1ED8 /* pechuga-de-pollo-a-la.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A075C6FA205EE223000A1ED8 /* pechuga-de-pollo-a-la.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A075C633205EBF5B000A1ED8 /* Ideas de Comida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ideas de Comida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A075C636205EBF5B000A1ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A075C638205EBF5B000A1ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A075C63B205EBF5B000A1ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A075C63D205EBF5B000A1ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A075C640205EBF5B000A1ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A075C642205EBF5B000A1ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A075C64A205EBFF2000A1ED8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A075C690205EC543000A1ED8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A075C691205EC543000A1ED8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		A075C6D9205EE1D6000A1ED8 /* Albondiga.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Albondiga.jpeg; sourceTree = "<group>"; };
+		A075C6DB205EE21B000A1ED8 /* Pincho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pincho.jpg; sourceTree = "<group>"; };
+		A075C6DC205EE21B000A1ED8 /* Spaguetti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spaguetti.jpg; sourceTree = "<group>"; };
+		A075C6DD205EE21C000A1ED8 /* Atun ensalada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Atun ensalada.jpg"; sourceTree = "<group>"; };
+		A075C6DE205EE21C000A1ED8 /* Sopa de auyama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sopa de auyama.jpg"; sourceTree = "<group>"; };
+		A075C6DF205EE21C000A1ED8 /* arepas-andinas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arepas-andinas.jpg"; sourceTree = "<group>"; };
+		A075C6E0205EE21C000A1ED8 /* Pero Caliente.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pero Caliente.jpg"; sourceTree = "<group>"; };
+		A075C6E1205EE21D000A1ED8 /* caraotas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caraotas.jpg; sourceTree = "<group>"; };
+		A075C6E2205EE21D000A1ED8 /* champinonesAl ajillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "champinonesAl ajillo.jpg"; sourceTree = "<group>"; };
+		A075C6E3205EE21D000A1ED8 /* Pollo a la plancha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pollo a la plancha.jpg"; sourceTree = "<group>"; };
+		A075C6E4205EE21E000A1ED8 /* Sandwiches.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sandwiches.jpg; sourceTree = "<group>"; };
+		A075C6E5205EE21E000A1ED8 /* empanadilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empanadilla.jpg; sourceTree = "<group>"; };
+		A075C6E6205EE21E000A1ED8 /* Pollo al horno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pollo al horno.jpg"; sourceTree = "<group>"; };
+		A075C6E7205EE21F000A1ED8 /* Atuncon guacamole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Atuncon guacamole.jpg"; sourceTree = "<group>"; };
+		A075C6E8205EE21F000A1ED8 /* Pollo frito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pollo frito.jpg"; sourceTree = "<group>"; };
+		A075C6E9205EE21F000A1ED8 /* Sopa-de-pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sopa-de-pollo.jpg"; sourceTree = "<group>"; };
+		A075C6EA205EE21F000A1ED8 /* Pollo a la placha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pollo a la placha.jpg"; sourceTree = "<group>"; };
+		A075C6EB205EE220000A1ED8 /* Spageti chino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Spageti chino.jpg"; sourceTree = "<group>"; };
+		A075C6EC205EE220000A1ED8 /* Tacos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tacos.jpg; sourceTree = "<group>"; };
+		A075C6ED205EE220000A1ED8 /* ensalada cesar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ensalada cesar.jpg"; sourceTree = "<group>"; };
+		A075C6EE205EE220000A1ED8 /* Bollitos pelones.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bollitos pelones.jpeg"; sourceTree = "<group>"; };
+		A075C6EF205EE221000A1ED8 /* Pasticho.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pasticho.jpeg; sourceTree = "<group>"; };
+		A075C6F0205EE221000A1ED8 /* PESCADO frito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PESCADO frito.jpg"; sourceTree = "<group>"; };
+		A075C6F1205EE221000A1ED8 /* Arepas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arepas.jpg; sourceTree = "<group>"; };
+		A075C6F2205EE222000A1ED8 /* Patacon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Patacon.jpg; sourceTree = "<group>"; };
+		A075C6F3205EE222000A1ED8 /* pepperoni pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pepperoni pizza.jpg"; sourceTree = "<group>"; };
+		A075C6F4205EE222000A1ED8 /* Arroz con pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arroz con pollo.jpg"; sourceTree = "<group>"; };
+		A075C6F5205EE222000A1ED8 /* Cachapa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cachapa.jpg; sourceTree = "<group>"; };
+		A075C6F6205EE223000A1ED8 /* Tequeños.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tequeños.jpg"; sourceTree = "<group>"; };
+		A075C6F7205EE223000A1ED8 /* Tortilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tortilla.jpg; sourceTree = "<group>"; };
+		A075C6F8205EE223000A1ED8 /* Hamburguesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hamburguesa.jpg; sourceTree = "<group>"; };
+		A075C6F9205EE223000A1ED8 /* Enrollaos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Enrollaos.jpg; sourceTree = "<group>"; };
+		A075C6FA205EE223000A1ED8 /* pechuga-de-pollo-a-la.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pechuga-de-pollo-a-la.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A075C630205EBF5B000A1ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A075C62A205EBF5B000A1ED8 = {
+			isa = PBXGroup;
+			children = (
+				A075C635205EBF5B000A1ED8 /* Ideas de Comida */,
+				A075C634205EBF5B000A1ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A075C634205EBF5B000A1ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A075C633205EBF5B000A1ED8 /* Ideas de Comida.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A075C635205EBF5B000A1ED8 /* Ideas de Comida */ = {
+			isa = PBXGroup;
+			children = (
+				A075C71B205EE24C000A1ED8 /* fotos */,
+				A075C690205EC543000A1ED8 /* TableViewCell.swift */,
+				A075C691205EC543000A1ED8 /* TableViewCell.xib */,
+				A075C636205EBF5B000A1ED8 /* AppDelegate.swift */,
+				A075C638205EBF5B000A1ED8 /* ViewController.swift */,
+				A075C64A205EBFF2000A1ED8 /* TableViewController.swift */,
+				A075C63A205EBF5B000A1ED8 /* Main.storyboard */,
+				A075C63D205EBF5B000A1ED8 /* Assets.xcassets */,
+				A075C63F205EBF5B000A1ED8 /* LaunchScreen.storyboard */,
+				A075C642205EBF5B000A1ED8 /* Info.plist */,
+			);
+			path = "Ideas de Comida";
+			sourceTree = "<group>";
+		};
+		A075C71B205EE24C000A1ED8 /* fotos */ = {
+			isa = PBXGroup;
+			children = (
+				A075C6D9205EE1D6000A1ED8 /* Albondiga.jpeg */,
+				A075C6EE205EE220000A1ED8 /* Bollitos pelones.jpeg */,
+				A075C6F5205EE222000A1ED8 /* Cachapa.jpg */,
+				A075C6E1205EE21D000A1ED8 /* caraotas.jpg */,
+				A075C6E2205EE21D000A1ED8 /* champinonesAl ajillo.jpg */,
+				A075C6E5205EE21E000A1ED8 /* empanadilla.jpg */,
+				A075C6F9205EE223000A1ED8 /* Enrollaos.jpg */,
+				A075C6ED205EE220000A1ED8 /* ensalada cesar.jpg */,
+				A075C6F8205EE223000A1ED8 /* Hamburguesa.jpg */,
+				A075C6EF205EE221000A1ED8 /* Pasticho.jpeg */,
+				A075C6F2205EE222000A1ED8 /* Patacon.jpg */,
+				A075C6FA205EE223000A1ED8 /* pechuga-de-pollo-a-la.jpg */,
+				A075C6F3205EE222000A1ED8 /* pepperoni pizza.jpg */,
+				A075C6E0205EE21C000A1ED8 /* Pero Caliente.jpg */,
+				A075C6F0205EE221000A1ED8 /* PESCADO frito.jpg */,
+				A075C6DB205EE21B000A1ED8 /* Pincho.jpg */,
+				A075C6EA205EE21F000A1ED8 /* Pollo a la placha.jpg */,
+				A075C6E3205EE21D000A1ED8 /* Pollo a la plancha.jpg */,
+				A075C6E6205EE21E000A1ED8 /* Pollo al horno.jpg */,
+				A075C6E8205EE21F000A1ED8 /* Pollo frito.jpg */,
+				A075C6E4205EE21E000A1ED8 /* Sandwiches.jpg */,
+				A075C6DE205EE21C000A1ED8 /* Sopa de auyama.jpg */,
+				A075C6E9205EE21F000A1ED8 /* Sopa-de-pollo.jpg */,
+				A075C6EB205EE220000A1ED8 /* Spageti chino.jpg */,
+				A075C6DC205EE21B000A1ED8 /* Spaguetti.jpg */,
+				A075C6EC205EE220000A1ED8 /* Tacos.jpg */,
+				A075C6F6205EE223000A1ED8 /* Tequeños.jpg */,
+				A075C6F7205EE223000A1ED8 /* Tortilla.jpg */,
+				A075C6DF205EE21C000A1ED8 /* arepas-andinas.jpg */,
+				A075C6F1205EE221000A1ED8 /* Arepas.jpg */,
+				A075C6F4205EE222000A1ED8 /* Arroz con pollo.jpg */,
+				A075C6DD205EE21C000A1ED8 /* Atun ensalada.jpg */,
+				A075C6E7205EE21F000A1ED8 /* Atuncon guacamole.jpg */,
+			);
+			name = fotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A075C632205EBF5B000A1ED8 /* Ideas de Comida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A075C645205EBF5B000A1ED8 /* Build configuration list for PBXNativeTarget "Ideas de Comida" */;
+			buildPhases = (
+				A075C62F205EBF5B000A1ED8 /* Sources */,
+				A075C630205EBF5B000A1ED8 /* Frameworks */,
+				A075C631205EBF5B000A1ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ideas de Comida";
+			productName = "Ideas de Comida";
+			productReference = A075C633205EBF5B000A1ED8 /* Ideas de Comida.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A075C62B205EBF5B000A1ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eduardo Jordan Muñoz";
+				TargetAttributes = {
+					A075C632205EBF5B000A1ED8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A075C62E205EBF5B000A1ED8 /* Build configuration list for PBXProject "Ideas de Comida" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A075C62A205EBF5B000A1ED8;
+			productRefGroup = A075C634205EBF5B000A1ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A075C632205EBF5B000A1ED8 /* Ideas de Comida */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A075C631205EBF5B000A1ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A075C641205EBF5B000A1ED8 /* LaunchScreen.storyboard in Resources */,
+				A075C6FF205EE224000A1ED8 /* arepas-andinas.jpg in Resources */,
+				A075C71A205EE224000A1ED8 /* pechuga-de-pollo-a-la.jpg in Resources */,
+				A075C703205EE224000A1ED8 /* Pollo a la plancha.jpg in Resources */,
+				A075C710205EE224000A1ED8 /* PESCADO frito.jpg in Resources */,
+				A075C712205EE224000A1ED8 /* Patacon.jpg in Resources */,
+				A075C716205EE224000A1ED8 /* Tequeños.jpg in Resources */,
+				A075C713205EE224000A1ED8 /* pepperoni pizza.jpg in Resources */,
+				A075C6FD205EE224000A1ED8 /* Atun ensalada.jpg in Resources */,
+				A075C708205EE224000A1ED8 /* Pollo frito.jpg in Resources */,
+				A075C701205EE224000A1ED8 /* caraotas.jpg in Resources */,
+				A075C70A205EE224000A1ED8 /* Pollo a la placha.jpg in Resources */,
+				A075C704205EE224000A1ED8 /* Sandwiches.jpg in Resources */,
+				A075C717205EE224000A1ED8 /* Tortilla.jpg in Resources */,
+				A075C6FC205EE224000A1ED8 /* Spaguetti.jpg in Resources */,
+				A075C706205EE224000A1ED8 /* Pollo al horno.jpg in Resources */,
+				A075C70E205EE224000A1ED8 /* Bollitos pelones.jpeg in Resources */,
+				A075C6FB205EE224000A1ED8 /* Pincho.jpg in Resources */,
+				A075C6FE205EE224000A1ED8 /* Sopa de auyama.jpg in Resources */,
+				A075C693205EC543000A1ED8 /* TableViewCell.xib in Resources */,
+				A075C711205EE224000A1ED8 /* Arepas.jpg in Resources */,
+				A075C70F205EE224000A1ED8 /* Pasticho.jpeg in Resources */,
+				A075C70D205EE224000A1ED8 /* ensalada cesar.jpg in Resources */,
+				A075C6DA205EE1D6000A1ED8 /* Albondiga.jpeg in Resources */,
+				A075C719205EE224000A1ED8 /* Enrollaos.jpg in Resources */,
+				A075C714205EE224000A1ED8 /* Arroz con pollo.jpg in Resources */,
+				A075C70B205EE224000A1ED8 /* Spageti chino.jpg in Resources */,
+				A075C702205EE224000A1ED8 /* champinonesAl ajillo.jpg in Resources */,
+				A075C707205EE224000A1ED8 /* Atuncon guacamole.jpg in Resources */,
+				A075C70C205EE224000A1ED8 /* Tacos.jpg in Resources */,
+				A075C63E205EBF5B000A1ED8 /* Assets.xcassets in Resources */,
+				A075C718205EE224000A1ED8 /* Hamburguesa.jpg in Resources */,
+				A075C63C205EBF5B000A1ED8 /* Main.storyboard in Resources */,
+				A075C709205EE224000A1ED8 /* Sopa-de-pollo.jpg in Resources */,
+				A075C705205EE224000A1ED8 /* empanadilla.jpg in Resources */,
+				A075C715205EE224000A1ED8 /* Cachapa.jpg in Resources */,
+				A075C700205EE224000A1ED8 /* Pero Caliente.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A075C62F205EBF5B000A1ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A075C639205EBF5B000A1ED8 /* ViewController.swift in Sources */,
+				A075C692205EC543000A1ED8 /* TableViewCell.swift in Sources */,
+				A075C637205EBF5B000A1ED8 /* AppDelegate.swift in Sources */,
+				A075C64B205EBFF2000A1ED8 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A075C63A205EBF5B000A1ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A075C63B205EBF5B000A1ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A075C63F205EBF5B000A1ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A075C640205EBF5B000A1ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A075C643205EBF5B000A1ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A075C644205EBF5B000A1ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A075C646205EBF5B000A1ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = "Ideas de Comida/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jordan.Ideas-de-Comida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A075C647205EBF5B000A1ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = "Ideas de Comida/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jordan.Ideas-de-Comida";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A075C62E205EBF5B000A1ED8 /* Build configuration list for PBXProject "Ideas de Comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A075C643205EBF5B000A1ED8 /* Debug */,
+				A075C644205EBF5B000A1ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A075C645205EBF5B000A1ED8 /* Build configuration list for PBXNativeTarget "Ideas de Comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A075C646205EBF5B000A1ED8 /* Debug */,
+				A075C647205EBF5B000A1ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A075C62B205EBF5B000A1ED8 /* Project object */;
+}
